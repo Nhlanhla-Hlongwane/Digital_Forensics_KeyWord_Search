@@ -1,0 +1,12 @@
+[2024-01-15 08:12:33] INFO - User admin logged in from IP 192.168.1.10
+[2024-01-15 08:45:21] WARNING - Failed login attempt for user root from IP 45.33.32.156
+[2024-01-15 09:01:44] ERROR - Unauthorized access attempt detected on port 22
+[2024-01-15 09:15:00] INFO - File deleted: /var/logs/system.log by user admin
+[2024-01-15 09:20:11] WARNING - Suspicious file transfer detected: 2.3GB to external IP
+[2024-01-15 10:33:55] ERROR - Malware signature detected in file: setup.exe
+[2024-01-15 11:02:18] INFO - User john.doe accessed restricted folder /confidential
+[2024-01-15 12:45:00] WARNING - Multiple failed login attempts - possible brute force attack
+[2024-01-15 13:10:22] ERROR - Data exfiltration attempt blocked from IP 203.0.113.5
+[2024-01-15 14:00:00] INFO - System backup deleted by unknown user
+[2024-01-15 15:22:44] WARNING - Encrypted tunnel established to unknown server
+[2024-01-15 16:45:33] ERROR - Ransomware activity detected - files being encrypted

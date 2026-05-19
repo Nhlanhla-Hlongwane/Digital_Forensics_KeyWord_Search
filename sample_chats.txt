@@ -1,0 +1,22 @@
+[2024-01-15 20:01:10] User_A: Did you get the files I sent?
+[2024-01-15 20:01:45] User_B: Yes got them. The password worked.
+[2024-01-15 20:02:30] User_A: Good. Delete the messages after this.
+[2024-01-15 20:03:11] User_B: What about the money transfer?
+[2024-01-15 20:03:55] User_A: Done. Sent to the offshore account already.
+[2024-01-15 20:04:22] User_B: Perfect. No one will trace it.
+
+---
+
+[2024-01-16 14:10:00] Suspect1: The victim won't be a problem anymore.
+[2024-01-16 14:10:45] Suspect2: Are you sure? What did you do?
+[2024-01-16 14:11:20] Suspect1: Let's just say they had an accident.
+[2024-01-16 14:12:00] Suspect2: Destroy your phone after this conversation.
+[2024-01-16 14:12:45] Suspect1: Already on it. Buy a burner phone tomorrow.
+
+---
+
+[2024-01-17 09:05:00] Unknown1: The drugs shipment is ready.
+[2024-01-17 09:05:30] Unknown2: How much this time?
+[2024-01-17 09:06:00] Unknown1: 5kg. Same drop point as last time.
+[2024-01-17 09:06:45] Unknown2: Password for the locker?
+[2024-01-17 09:07:00] Unknown1: Locker@5566. Delete this chat now.
