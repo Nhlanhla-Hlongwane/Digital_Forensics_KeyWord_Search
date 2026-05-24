@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Forensics Keyword Search</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Digital Forensics Keyword Search</h1>
+        <p>Search the forensic dataset, preview documents, and inspect keywords.</p>
+      </header>
+
+      <section class="search-panel">
+        <label for="query">Enter keywords or phrase</label>
+        <div class="search-row">
+          <input id="query" type="search" placeholder="e.g. money transfer offshore" />
+          <button id="searchButton">Search</button>
+        </div>
+        <p id="status" class="status">Type a search query and press Search.</p>
+      </section>
+
+      <section class="results-panel">
+        <h2>Search Results</h2>
+        <div id="results"></div>
+      </section>
+
+      <section class="files-panel">
+        <h2>Available Files</h2>
+        <div id="files"></div>
+        <div id="filePreview" class="file-preview"></div>
+      </section>
+    </div>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>
