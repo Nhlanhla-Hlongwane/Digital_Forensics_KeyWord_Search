@@ -1,0 +1,145 @@
+:root {
+  color-scheme: dark;
+  color: #f5f7fb;
+  background: #0b1220;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 24px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+p {
+  margin: 0;
+  color: #c5d2ea;
+}
+
+.search-panel,
+.results-panel,
+.files-panel {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 18px;
+  padding: 20px;
+  margin-bottom: 22px;
+}
+
+.search-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+input[type='search'] {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #edf2ff;
+}
+
+button {
+  padding: 14px 18px;
+  border: none;
+  border-radius: 12px;
+  background: #4f6dff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #3a56d0;
+}
+
+.status {
+  margin-top: 14px;
+  color: #9bb0e8;
+}
+
+.result-card,
+.file-button {
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.result-card {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.result-card header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+  align-items: baseline;
+}
+
+.result-card header strong {
+  color: #8bd1ff;
+}
+
+.result-card footer {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: #b2c2e6;
+}
+
+.file-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 6px 6px 0 0;
+  padding: 10px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  color: #e8f0ff;
+  cursor: pointer;
+}
+
+.file-button:hover {
+  background: rgba(79, 109, 255, 0.18);
+}
+
+.file-preview {
+  margin-top: 18px;
+  padding: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.file-preview pre {
+  white-space: pre-wrap;
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+  margin: 0;
+  color: #d8e1ff;
+}
+
+.empty {
+  color: #a1b0d0;
+}
